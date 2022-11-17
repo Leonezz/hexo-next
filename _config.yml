@@ -30,6 +30,7 @@ custom_file_path:
   #mixin: source/_data/mixins.styl
   #style: source/_data/styles.styl
 
+rss: false
 
 # ---------------------------------------------------------------
 # Scheme Settings
@@ -50,10 +51,10 @@ darkmode: true
 # ---------------------------------------------------------------
 
 favicon:
-  small: /images/favicon-16x16-next.png
-  medium: /images/favicon-32x32-next.png
-  apple_touch_icon: /images/apple-touch-icon-next.png
-  safari_pinned_tab: /images/logo.svg
+  small: /images/avatar.png
+  medium: /images/favatar.png
+  apple_touch_icon: /images/avatar.png
+  safari_pinned_tab: /images/avatar.svg
   #android_manifest: /manifest.json
 
 # Custom Logo (Warning: Do not support scheme Mist)
@@ -102,6 +103,7 @@ menu:
   archives: /archives/ || fa fa-archive
   books: https://quill-vulcanodon-c7b.notion.site/77103fc77dad482c9d2eb42205a393ae?v=021dfdbe911c4929b6f0e4034996b6f4 || fas fa-book
   movies: https://quill-vulcanodon-c7b.notion.site/Movie-List-f2d5b594d437400091712ac108963427 || fas fa-film
+  photograph: /categories/Photograph/ || fa fa-camera-retro
   # schedule: /schedule/ || fa fa-calendar
   # sitemap: /sitemap.xml || fa fa-sitemap
   commonweal: /404/ || fa fa-heartbeat
@@ -132,7 +134,7 @@ sidebar:
   #  - always  expand for all pages automatically.
   #  - hide    expand only when click on the sidebar toggle icon.
   #  - remove  totally remove sidebar including sidebar toggle.
-  display: remove
+  display: hide
 
   # Sidebar padding in pixels.
   padding: 18
@@ -142,15 +144,9 @@ sidebar:
 # Sidebar Avatar
 avatar:
   # Replace the default image and set the url here.
-<<<<<<< HEAD
   url: /images/avatar.png
   # If true, the avatar will be dispalyed in circle.
   rounded: true
-=======
-  url: #/images/avatar.gif
-  # If true, the avatar will be displayed in circle.
-  rounded: false
->>>>>>> 68da2940383362294ca1f41c35e9abac8a288d6c
   # If true, the avatar will be rotated with the cursor.
   rotated: false
 
@@ -162,7 +158,7 @@ site_state: true
 # Key is the link label showing to end users.
 # Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.
 social:
-  #GitHub: https://github.com/yourname || fab fa-github
+  GitHub: https://github.com/leonezz || fab fa-github
   #E-Mail: mailto:yourname@gmail.com || fa fa-envelope
   #Weibo: https://weibo.com/yourname || fab fa-weibo
   #Google: https://plus.google.com/yourname || fab fa-google
@@ -231,8 +227,8 @@ footer:
 
   # Beian ICP and gongan information for Chinese users. See: https://beian.miit.gov.cn, http://www.beian.gov.cn
   beian:
-    enable: false
-    icp:
+    enable: true
+    icp: fuck the ICP
     # The digit in the num of gongan beian.
     gongan_id:
     # The full num of gongan beian.
@@ -360,7 +356,7 @@ text_align:
   mobile: justify
 
 # Reduce padding / margin indents on devices with narrow width.
-mobile_layout_economy: false
+mobile_layout_economy: true
 
 # Browser header panel color.
 theme_color:
@@ -385,7 +381,7 @@ codeblock:
     dark: prism-dark
   # Add copy button on codeblock
   copy_button:
-    enable: false
+    enable: true
     # Available values: default | flat | mac
     style:
 
@@ -767,7 +763,17 @@ busuanzi_count:
 # Search Services
 # See: https://theme-next.js.org/docs/third-party-services/search-services
 # ---------------------------------------------------------------
+# JavaScript library for reading EXIF image metadata.
+# For more information: https://github.com/exif-js/exif-js
+exif:
+  enable: true
+  template: "{FocalLength}mm f/{FNumber} {ExposureTime}s. zhuwenq © 2022"
 
+search:
+  path: search.xml
+  field: post
+  content: true
+  format: raw
 # Algolia Search
 # For more information: https://www.algolia.com
 algolia_search:
@@ -856,7 +862,7 @@ tabs:
 # So, you have to install the dependency of pdf.js if you want to use pdf tag and make it available to all browsers.
 # Dependencies: https://github.com/next-theme/theme-next-pdf
 pdf:
-  enable: false
+  enable: true
   # Default height
   height: 500px
 
