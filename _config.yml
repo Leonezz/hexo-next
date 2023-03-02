@@ -159,6 +159,7 @@ site_state: true
 # Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.
 social:
   GitHub: https://github.com/leonezz || fab fa-github
+  Resume: https://resume.zhuwenq.cc || fa-solid fa-folder-user
   #E-Mail: mailto:yourname@gmail.com || fa fa-envelope
   #Weibo: https://weibo.com/yourname || fab fa-weibo
   #Google: https://plus.google.com/yourname || fab fa-google
@@ -374,8 +375,8 @@ codeblock:
   # Code Highlight theme
   # All available themes: https://theme-next.js.org/highlight/
   theme:
-    light: default
-    dark: stackoverflow-dark
+    light: base16/gruvbox-light-soft
+    dark: base16/gruvbox-dark-pale
   prism:
     light: prism
     dark: prism-dark
