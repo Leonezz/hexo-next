@@ -101,8 +101,8 @@ menu:
   tags: /tags/ || fa fa-tags
   categories: /categories/ || fa fa-th
   archives: /archives/ || fa fa-archive
-  books: https://quill-vulcanodon-c7b.notion.site/77103fc77dad482c9d2eb42205a393ae?v=021dfdbe911c4929b6f0e4034996b6f4 || fas fa-book
-  movies: https://quill-vulcanodon-c7b.notion.site/Movie-List-f2d5b594d437400091712ac108963427 || fas fa-film
+  books: https://zhuwenq.notion.site/Book-List-69ab897ee3184ccea99eb33eac976f3e || fas fa-book
+  movies: https://zhuwenq.notion.site/Movie-List-f2d5b594d437400091712ac108963427 || fas fa-film
   photograph: /categories/Photograph/ || fa fa-camera-retro
   # schedule: /schedule/ || fa fa-calendar
   # sitemap: /sitemap.xml || fa fa-sitemap
