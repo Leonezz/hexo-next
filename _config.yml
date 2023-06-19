@@ -372,16 +372,16 @@ codeblock:
   # Code Highlight theme
   # All available themes: https://theme-next.js.org/highlight/
   theme:
-    light: base16/gruvbox-light-soft
-    dark: base16/gruvbox-dark-pale
+    light: base16/material-palenight
+    dark: base16/material-palenight
   prism:
-    light: prism
-    dark: prism-dark
+    light: prism-material-oceanic
+    dark: prism-material-oceanic
   # Add copy button on codeblock
   copy_button:
     enable: true
     # Available values: default | flat | mac
-    style:
+    style: mac
 
 back2top:
   enable: true
