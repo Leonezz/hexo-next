@@ -740,7 +740,7 @@ addtoany:
 # Google Analytics
 # See: https://analytics.google.com
 google_analytics:
-  tracking_id: # <app_id>
+  tracking_id: G-XT3BJ1YLMY
   # By default, NexT will load an external gtag.js script on your site.
   # If you only need the pageview feature, set the following option to true to get a better performance.
   only_pageview: false
@@ -755,7 +755,7 @@ growingio_analytics: # <project_id>
 
 # Cloudflare Web Analytics
 # See: https://www.cloudflare.com/web-analytics/
-cloudflare_analytics: 49fde7d33a584ce0b9092aaba41b5f02
+cloudflare_analytics: #49fde7d33a584ce0b9092aaba41b5f02
 
 # Microsoft Clarity Analytics
 # See: https://clarity.microsoft.com/
@@ -800,10 +800,10 @@ leancloud_visitors:
 # Visit https://console.firebase.google.com/u/0/ to get apiKey and projectId.
 # Visit https://firebase.google.com/docs/firestore/ to get more information about firestore.
 firestore:
-  enable: false
+  enable: true
   collection: articles # Required, a string collection name to access firestore database
-  apiKey: # Required
-  projectId: # Required
+  apiKey: AIzaSyCCftlkcCYLbmRoGvpCzbNGZ5BP2IWjY38
+  projectId: blog-zhuwenq-cc
 
 # Show Views / Visitors of the website / page with busuanzi.
 # For more information: http://ibruce.info/2015/04/04/busuanzi/
