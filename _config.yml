@@ -106,7 +106,7 @@ menu:
   movies: https://zhuwenq.notion.site/Movie-List-f2d5b594d437400091712ac108963427 || fas fa-film
   photograph: /categories/Photograph/ || fa fa-camera-retro
   # schedule: /schedule/ || fa fa-calendar
-  # sitemap: /sitemap.xml || fa fa-sitemap
+  sitemap: /sitemap.xml || fa fa-sitemap
   commonweal: /404/ || fa fa-heartbeat
 
 # Enable / Disable menu icons / item badges.
@@ -291,7 +291,7 @@ follow_me:
   #Twitter: https://twitter.com/username || fab fa-twitter
   #Telegram: https://t.me/channel_name || fab fa-telegram
   #WeChat: /images/wechat_channel.png || fab fa-weixin
-  #RSS: /atom.xml || fa fa-rss
+  RSS: /atom.xml || fa fa-rss
 
 # Related popular posts
 # Dependencies: https://github.com/sergeyzwezdin/hexo-related-posts
